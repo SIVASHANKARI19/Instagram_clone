@@ -16,7 +16,7 @@ const Sidebar = () => {
     }
   };
   return (
-    <div className="sticky top-0 h-[90vh]">
+    <div className="sticky top-0 h-[99vh] bg-white">
       <div className="flex flex-col justify-between h-full px-10 ">
         <div>
           <div className="pt-10">
@@ -35,11 +35,12 @@ const Sidebar = () => {
             ))}
           </div>
         </div>
-      </div>
-      <div className="flex items-center cursor-pointer pb-10 text-lg">
+        <div className="flex items-center cursor-pointer pb-10 text-lg ">
         <IoReorderThree className="text-2xl mr-5" />
         <p>More</p>
       </div>
+      </div>
+     
     </div>
   );
 };
